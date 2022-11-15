@@ -8,4 +8,4 @@ Für dieses Kompetenz wird ein Stück Code erstellt, welches verschiedene Mitgli
 
 **Hinweise für Lernende**: Im einfachsten Fall bilden sie die Führung durch die Navigation als Aktivitätsdiagramm ab.
 
-![Projektauswahl](Projektauswahl.drawio.png)
+![Projektauswahl](AD.drawio.png)
