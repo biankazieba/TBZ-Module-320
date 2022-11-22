@@ -15,14 +15,14 @@ public class K01 {
 
         while (true) {
             // Select members
-            listMembers(members);
+            printMembers(members);
             System.out.println("x: Exit");
             String input = scanner.next();
             if (input.equalsIgnoreCase("x")) closeProgram();
             member = Integer.parseInt(input);
 
             // Select teams
-            listTeams(teams);
+            printTeams(teams);
             System.out.println("x: Exit");
             input = scanner.next();
             if (input.equalsIgnoreCase("x")) closeProgram();
@@ -34,20 +34,20 @@ public class K01 {
         System.out.println("You have selected the member '" + members[member] + "' with the team '" + teams[team] + "'.");
     }
 
-    public static void closeProgram() {
-        System.out.println("You have closed the program.");
-        System.exit(0);
-    }
-
-    public static void listTeams(String[] teams) {
+    public static void printTeams(String[] teams) {
         for (int i = 0; i < teams.length; i++) {
             System.out.println(i + ": " + teams[i]);
         }
     }
 
-    public static void listMembers(String[] members) {
+    public static void printMembers(String[] members) {
         for (int i = 0; i < members.length; i++) {
             System.out.println(i + ": " + members[i]);
         }
+    }
+
+    public static void closeProgram() {
+        System.out.println("You have closed the program.");
+        System.exit(0);
     }
 }
