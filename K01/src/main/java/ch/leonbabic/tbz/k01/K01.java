@@ -13,7 +13,7 @@ public class K01 {
         int member;
         int team;
 
-        while (true) {
+        do {
             // Select members
             printMembers(members);
             System.out.println("x: Exit");
@@ -30,7 +30,7 @@ public class K01 {
                 team = Integer.parseInt(input);
                 break;
             }
-        }
+        } while (true);
         System.out.println("You have selected the member '" + members[member] + "' with the team '" + teams[team] + "'.");
     }
 
