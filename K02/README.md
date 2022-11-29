@@ -2,13 +2,13 @@
 
 ## Erarbeitung Begriffe
 
-**Encapsulation**: Getter und Setter in einer Klasse verwenden ()
+**Encapsulation**: Variabeln und Methoden in einer Klasse deklarieren und verwenden. Sie werden erst verwendet, wenn man die Klasse als object initialisiert.
 
-**Information Hiding**: Beschreibt alle Möglichkeiten wie man Digitale Nachrichten in anderen Digitalen Informationen spreichern kann.
+**Information Hiding**: Variabeln und Methoden in einer Klasse mit `private` "verstecken."
 
 **Getter, Setter**: Variabeln zugreifen, ohne auf die Klasse direkt zuzugreifen.
 
-**Delegation**: Funktionen auf in Klassen lagern.
+**Delegation**: Funktionen in verschiedene Klassen lagern.
 
 ## Projekt / Umsetzung
 

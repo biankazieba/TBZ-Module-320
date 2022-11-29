@@ -12,10 +12,17 @@ public class Menu {
 
     private Scanner scanner;
 
-    public Menu(Team[] teams, Member[] members) {
-        this.teams = teams;
-        this.members = members;
+    public Menu() {
+        this.teams = new TeamManager().getTeams();
+        this.members = new MemberManager().getMembers();
         this.scanner = new Scanner(System.in);
+    }
+
+    public void showMenu() {
+        this.checkMemberInput();
+        this.checkTeamInput();
+
+        System.out.println("You have selected the member '" + this.getSelectedMember().getName() + "' with the team '" + this.getSelectedTeam().getName() + "'.");
     }
 
     public void checkMemberInput() {
