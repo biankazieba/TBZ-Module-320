@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"ch.leonbabic.tbz.k03"},{"l":"ch.leonbabic.tbz.k03.exception"},{"l":"ch.leonbabic.tbz.k03.manager"},{"l":"ch.leonbabic.tbz.k03.model"}];updateSearchResults();
