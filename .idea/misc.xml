@@ -4,6 +4,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/K01" />
     <file type="web" url="file://$PROJECT_DIR$/K02" />
+    <file type="web" url="file://$PROJECT_DIR$/K03" />
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="azul-17" project-jdk-type="JavaSDK" />
 </project>
