@@ -3,6 +3,8 @@ package ch.leonbabic.tbz.k03.manager;
 import ch.leonbabic.tbz.k03.model.Member;
 
 /**
+ * @author Leon Babic and Bianka Zieba
+ * @version K03
  * Manager class for members
  */
 public class MemberManager {
@@ -11,6 +13,8 @@ public class MemberManager {
 
     /**
      * Initialize teams
+     *
+     * @since K02
      */
     public MemberManager() {
         this.members = new Member[]{
@@ -21,6 +25,7 @@ public class MemberManager {
 
     /**
      * @return members
+     * @since K02
      */
     public Member[] getMembers() {
         return members;

@@ -8,6 +8,10 @@ import java.util.Scanner;
 
 /**
  * Menu to be printed
+ *
+ * @author Leon Babic and Bianka Zieba
+ * @version K03
+ * @since K02
  */
 public class Menu {
 
@@ -21,6 +25,8 @@ public class Menu {
 
     /**
      * Initialize menu
+     *
+     * @since K02
      */
     public Menu() {
         this.teams = new TeamManager().getTeams();
@@ -30,6 +36,8 @@ public class Menu {
 
     /**
      * Print menu to console
+     *
+     * @since K02
      */
     public void showMenu() {
         this.checkMemberInput();
@@ -40,6 +48,8 @@ public class Menu {
 
     /**
      * Check input for member
+     *
+     * @since K03
      */
     public void checkMemberInput() {
         do {
@@ -56,6 +66,8 @@ public class Menu {
 
     /**
      * Check input for team
+     *
+     * @since K03
      */
     public void checkTeamInput() {
         do {
@@ -72,7 +84,9 @@ public class Menu {
 
     /**
      * Check general input
+     *
      * @throws MissmatchInputException if input is invalid
+     * @since K03
      */
     private int checkInput() throws MissmatchInputException {
         System.out.println("x: Exit");
@@ -93,6 +107,8 @@ public class Menu {
 
     /**
      * Print all teams
+     *
+     * @since K02
      */
     private void printTeams() {
         for (int i = 0; i < this.teams.length; i++) {
@@ -102,6 +118,8 @@ public class Menu {
 
     /**
      * Print all members
+     *
+     * @since K02
      */
     private void printMembers() {
         for (int i = 0; i < this.members.length; i++) {
@@ -111,6 +129,7 @@ public class Menu {
 
     /**
      * @return selected Member
+     * @since K02
      */
     public Member getSelectedMember() {
         return selectedMember;
@@ -118,6 +137,7 @@ public class Menu {
 
     /**
      * @return selected Team
+     * @since K02
      */
     public Team getSelectedTeam() {
         return selectedTeam;
