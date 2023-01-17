@@ -1,8 +1,8 @@
-public class Genre {
+public class Requisite {
 
     private final String name;
 
-    public Genre(String name) {
+    public Requisite(String name) {
         this.name = name;
     }
 
@@ -10,3 +10,4 @@ public class Genre {
         return name;
     }
 }
+
