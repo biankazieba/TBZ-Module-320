@@ -19,4 +19,6 @@ Ein Java Interface ist eine Art Klasse , die nur aus Konstanten und abstrakten M
 
 Eine Methode ist polymorph, wenn sie in verschiedenen Klassen die gleiche Signatur hat, jedoch erneut implementiert ist.
 So kann man diese Methoden mit der Anotation @Override überschreiben.
-Auch können Methoden mit overloading den gleichen Namen haben, jedich mit anderen Parametern.
+Auch können Methoden mit overloading den gleichen Namen haben, jedoch mit anderen Parametern.
+
+![UML](UML.drawio.png)
