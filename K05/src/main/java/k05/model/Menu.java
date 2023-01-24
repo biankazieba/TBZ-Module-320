@@ -30,8 +30,8 @@ public class Menu {
      * @since K02
      */
     public Menu() {
-        this.teams = new TeamManager();
-        this.members = new MemberManager();
+        this.teams = new TeamManager().getTeams();
+        this.members = new MemberManager().getMembers();
         this.scanner = new Scanner(System.in);
     }
 
