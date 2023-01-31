@@ -7,10 +7,30 @@ package k05.model;
  * @version K03
  * @since K02
  */
-public class Member extends AbstractPerson {
+public class Member extends AbstractEntity {
 
-    public Member(String name, int age) {
-        super(name, age);
+    public int age;
+    private Address address;
+
+    public Member(String name, int age, Address address) {
+        super(name);
+        this.age = age;
+        this.address = address;
     }
 
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public Address getAddress() {
+        return address;
+    }
+
+    public void setAddress(Address address) {
+        this.address = address;
+    }
 }

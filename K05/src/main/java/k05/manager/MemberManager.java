@@ -1,5 +1,6 @@
 package k05.manager;
 
+import k05.model.Address;
 import k05.model.Member;
 
 import java.util.ArrayList;
@@ -21,8 +22,8 @@ public class MemberManager implements IManager<Member> {
      */
     public MemberManager() {
         members = new ArrayList<>(Arrays.asList(
-                new Member("Leon", 17),
-                new Member("Bianka", 16))
+                new Member("Leon", 17, new Address(8106)),
+                new Member("Bianka", 16, new Address("Street 81", 8005)))
         );
     }
 
